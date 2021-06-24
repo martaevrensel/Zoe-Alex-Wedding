@@ -99,3 +99,27 @@ hr {
   background-color: black;
   margin: .7rem auto;
 }
+
+/* ===Program=== */
+
+.program {
+  background-color: hsla(100,0%,0%,.6);
+  padding: .7rem;
+}
+
+.program h2 {
+  color: #d2ba87;
+  font-weight: 500;
+}
+.program-wrapper p {
+  color: #d2ba87;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-style: italic;
+  letter-spacing: .05rem
+}
+
+li {
+  color: #d2ba87;
+  margin-left: 1rem;
+}
