@@ -6,22 +6,26 @@ font-family: 'Mulish', sans-serif;
 
 *{
   box-sizing: border-box;
+}
+
+body {
+  background: url(assets/wedding-landing-background.png) repeat center;
   color: #444349;
   line-height: 1.25rem;
+  font-family: 'Mulish', sans-serif;
 }
 
 /* ===HEADER STYLES=== */
 
 .cover {
-  background: url(assets/wedding-landing-cover.jpg) no-repeat center;
+  background: url(assets/wedding-landing-cover.jpg) no-repeat 68% center;
   background-size: cover;
   height: 100vh;
   width: 100%;
-  font-family: 'Libre Baskerville', serif;
   text-align: center;
   display: table;
+  font-family: 'Libre Baskerville', serif;
 }
-
 
 
 .byline {
@@ -31,16 +35,25 @@ font-family: 'Mulish', sans-serif;
 }
 
 .tagline {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   letter-spacing: .16rem;
   margin-bottom: .6rem;
   color: hsla(0,0%,100%,.9);
 }
 
+.tagline::after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 13rem;
+  background-color: white;
+  margin: 1rem auto;
+}
+
 .headline {
   font-size: 3.5rem;
   color: #d2ba87;
-  margin: 1rem 0;
+  margin: 2.5rem 0;
   font-family: 'Great Vibes', cursive;
 }
 
@@ -50,11 +63,15 @@ font-family: 'Mulish', sans-serif;
   color: hsla(0,0%,100%,.9);
 }
 
-.line {
-  height: 0.1rem;
-  width: 15rem;
-  background-color: hsla(0,0%,100%,.9);
-  margin: 0 auto;
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: 1.5rem;
+  background-color: white;
+  margin: 0.5rem;
+  vertical-align: middle;
 }
 
 .header-wrapper {
@@ -67,37 +84,48 @@ font-family: 'Mulish', sans-serif;
 /* ===Location=== */
 
 .locations {
-  background: url(assets/wedding-landing-background.png) no-repeat center;
-  background-size: cover;
   height: 100vh;
   width: 100%;
   text-align: center;
   display: table;
-}
-
-h2 {
-  padding: 1.25rem;
-  font-family: 'Great Vibes', cursive;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-
-img {
-  width: 25vw;
-  height: 15vh;
   padding: 1rem;
 }
 
-hr {
-  width: 18vw;
-  background-color: black;
-  margin: .7rem auto;
+h2 {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 3.1rem;
+  margin: 1rem auto;
+  padding: 1.5rem;
+}
+
+.cell h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  font-family: 'Libre Baskerville', serif;
+  padding: 0.5rem;
+}
+
+.cell img {
+  height: 28vh;
+  padding: 1.2rem;
+}
+.cell div {
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: .05rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+}
+
+.cell::after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 7rem;
+  background-color: #444349;
+  margin: 1.5rem auto;
 }
 
 /* ===Program=== */
