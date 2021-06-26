@@ -231,3 +231,18 @@ a:hover {
   color: #eda087;
   transition: color 0.18s ease-in-out;
 }
+
+/* === Contact === */
+
+.contact {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.contact p {
+  font-size: 1.125rem;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.7rem;
+  padding-bottom: 1.5rem;
+}
