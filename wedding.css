@@ -79,9 +79,9 @@ body {
   vertical-align: middle;
 }
 
-/* ===MAIN STYLES=== */
+/* === MAIN STYLES === */
 
-/* ===Location=== */
+/* === Location === */
 
 .locations {
   height: 100vh;
@@ -128,7 +128,7 @@ h2 {
   margin: 1.5rem auto;
 }
 
-/* ===Program=== */
+/* === Program === */
 
 .program {
   background-color: hsla(100,0%,0%,.6);
@@ -151,4 +151,29 @@ h2 {
 
 li {
   color: #d2ba87;
+}
+
+/* === Gifts === */
+
+.gifts {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: table;
+  padding: 1.125rem;
+}
+
+.gifts p {
+  font-size: 1.125rem;
+  font-family: 'Libre Baskerville', serif;
+  margin: 1rem;
+  line-height: 1.7rem;
+}
+
+.gifts img {
+  height: 22vh;
+  margin: 1rem;
+}
+.gifts h2 {
+  padding-bottom: 2rem;
 }
