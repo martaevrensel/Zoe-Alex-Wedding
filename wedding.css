@@ -88,7 +88,7 @@ body {
   width: 100%;
   text-align: center;
   display: table;
-  padding: 1rem;
+  padding: 1.125rem;
 }
 
 h2 {
@@ -111,12 +111,12 @@ h2 {
   height: 28vh;
   padding: 1.2rem;
 }
+
 .cell div {
   font-family: 'Mulish', sans-serif;
-  font-size: 1.1rem;
-  letter-spacing: .05rem;
+  font-size: 1.125rem;
   line-height: 1.8rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .cell::after {
@@ -132,7 +132,9 @@ h2 {
 
 .program {
   background-color: hsla(100,0%,0%,.6);
-  padding: .7rem;
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+  padding: 0.2rem 1rem 1.7rem;
 }
 
 .program h2 {
@@ -144,10 +146,9 @@ h2 {
   text-align: center;
   padding-bottom: 1rem;
   font-style: italic;
-  letter-spacing: .05rem
+  letter-spacing: .02rem;
 }
 
 li {
   color: #d2ba87;
-  margin-left: 1rem;
 }
