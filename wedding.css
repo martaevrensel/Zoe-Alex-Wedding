@@ -154,6 +154,14 @@ body {
   padding: 1.125rem;
 }
 
+@media (min-width: 768px) {
+  
+  .locations {
+    height: 70vh;
+}
+  
+}
+
 h2 {
   font-family: 'Great Vibes', cursive;
   text-align: center;
@@ -175,6 +183,14 @@ h2 {
   padding: 1.2rem;
 }
 
+@media (min-width: 768px) {
+  
+  .cell img {
+    height: 23vh;
+}
+  
+}
+
 .cell div {
   font-family: 'Mulish', sans-serif;
   font-size: 1.125rem;
@@ -189,6 +205,25 @@ h2 {
   width: 7rem;
   background-color: #444349;
   margin: 1.5rem auto;
+}
+
+@media (min-width: 768px) {
+  
+  .cell::after {
+   display: none;
+}
+  
+}
+
+@media (min-width: 768px) {
+  
+  .cell {
+    display: inline-block;
+    width: 30%;
+    padding: 1.2rem;
+    margin: 0.5rem;
+}
+  
 }
 
 /* === Program === */
