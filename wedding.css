@@ -237,7 +237,7 @@ a:hover {
 .contact {
   width: 100%;
   text-align: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
 }
 
 .contact p {
@@ -245,4 +245,15 @@ a:hover {
   font-family: 'Libre Baskerville', serif;
   line-height: 1.7rem;
   padding-bottom: 1.5rem;
+}
+
+/* === FOOTER STYLES === */
+
+.footer-wrapper {
+  background-color: #606060;
+  width: 100%;
+  color: white;
+  font-size: .88rem;
+  padding: .5rem 1rem;
+  text-align: center;
 }
