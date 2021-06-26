@@ -236,6 +236,15 @@ h2 {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  
+  .program-wrapper {
+    width: 31vw;
+    margin: 1rem auto;
+}
+  
+}
+
 .program h2 {
   color: #d2ba87;
   font-weight: 500;
